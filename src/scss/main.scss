@@ -13,3 +13,36 @@ img,
 video {
   display: block;
 }
+
+body {
+  padding: 50px;
+}
+
+.button {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 2px solid #F00;
+
+  color: #F00;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.stat {
+  font-size: 14px;
+  color: black;
+}
+
+.is-activated {
+  color: white;
+  background-color: #F00;
+}
+
+.is-activated .stat {
+  color: white;
+}
